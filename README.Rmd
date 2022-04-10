@@ -1,0 +1,17 @@
+---
+title: "Appex 12"
+author: "Lucy D'Agostino McGowan"
+output: github_document
+date: '2022-04-11'
+---
+
+```{r, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(broom)
+library(causaldata)
+library(rsample)
+library(visdat)
+library(mice)
+#install.packages("mice")
+#install.packages("visdat")
+```
